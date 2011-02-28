@@ -1,0 +1,46 @@
+/*!
+ * Controllers Plugin for SlideNSwap
+ *
+ * @author Asaf Zamir
+ * @link http://jquery.kidsil.net
+ * @version 0.01
+ * @date 28/02/2011
+ *
+ * Description:
+ * The CSS File
+ * 
+ * 
+ * Usage:
+ * add me with <link href="slideNswap.controllers.css" rel="stylesheet" type="text/css" />
+ *
+ * an example is available at http://jquery.kidsil.net
+ */
+
+#slide-n-swap-controllers {
+	z-index:2;
+	position:absolute;
+	top: 88%;
+	display: none;
+}
+
+#slide-n-swap-controllers div {
+	float:left;
+	background-color:#EBDDE2;
+	border: 1px solid black;
+	padding: 2px 3px 2px;
+	margin: 2px 1px;
+}
+
+#slide-n-swap-controllers div:hover {
+	cursor:pointer;
+	cursor:hand;
+
+}
+
+#slide-n-swap-controllers div#pause_cont {
+	font-size:12px;
+	font-weight:bold;
+	padding: 4px 3px 4px;
+
+}
+
