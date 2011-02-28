@@ -24,6 +24,7 @@
 }
 
 #slide-n-swap-controllers div {
+	z-index:2;
 	float:left;
 	background-color:#EBDDE2;
 	border: 1px solid black;
